@@ -1,3 +1,4 @@
+-- Databricks notebook
 SELECT t_result.gray_id gray_id,
        SUM(metric_32228_A) metric_32228_nume,
        SUM(CASE
