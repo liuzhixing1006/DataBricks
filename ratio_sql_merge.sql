@@ -1,3 +1,4 @@
+-- Databricks notebook source
 SELECT t_result.gray_id gray_id,
        SUM(metric_32605_A / 100) metric_32605_nume,
        SUM((metric_32605_A / 100) *(metric_32605_A / 100)) metric_32605_nume_square,
