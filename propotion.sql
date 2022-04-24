@@ -1,3 +1,4 @@
+-- Databricks notebook source
 SELECT t_result.gray_id gray_id,
        SUM(CASE
                WHEN metric_33482_A > 0 THEN 1
